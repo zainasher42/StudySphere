@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
 import Welcome from './pages/Welcome/Welcome';
 import SignIn from './pages/SignIn/SignIn';
 import TnC from './pages/TnC/TnC';
@@ -9,6 +8,8 @@ import LobbyScreen from './pages/VideoLobby/VideoLobby';
 import RoomPage from './pages/VideoRoom/VideoRoom';
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Home from './pages/Home/Home';
+
 
 {/*
 
@@ -41,6 +42,7 @@ function App() {
         <Route path="/" element={<SignIn />} />
         <Route path="/TnC" element={<TnC />} />
         <Route path="/VideoLobby" element={<LobbyScreen />} />
+        <Route path="/home" element={<Home />}/>
         <Route path="/room/:roomId" element={<RoomPage />} />
       </Routes>
     </Router>

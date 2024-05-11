@@ -12,7 +12,7 @@ function SignInCard() {
     <input type="textbox" name="username" placeholder="USERNAME"/>
      <input type="password" name="password" placeholder="PASSWORD" className="t2"/>
      <p className="text11">*By signing-in you are agreeing to <Link to="/TnC" className="text12">Terms & Conditions</Link></p>
-     <Link to ="/VideoLobby"><button className="btn1">SIGN IN</button></Link>
+     <Link to ="/home"><button className="btn1">SIGN IN</button></Link>
      <Link to="/SignUp"><button className="btn2">SIGN UP</button></Link> 
   </div>
 
