@@ -21,7 +21,7 @@ function Home() {
           </Link>
           <SmallCard name="Notifications" />
         </div>
-      </div>
+      </div>   
     </div>
   );
 }
