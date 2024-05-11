@@ -19,7 +19,7 @@ function Home() {
           <Link to="/VideoLobby" className='mCard'>
           <SmallCard name="Video Calls" />
           </Link>
-          <SmallCard name="Notifications" />
+          <SmallCard name="Notifications" />              
         </div>
       </div>   
     </div>
