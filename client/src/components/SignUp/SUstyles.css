@@ -33,6 +33,23 @@
     font-style: normal;
     margin-top: 47px;
   }
+ 
+  
+  .text1 {
+    width: 214px;
+    height: 10px;
+    margin: 21px 49px 22px 50px;
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    font-size: 32px; /* Increase the font size */
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+  }
   
   input {
     width: 313px;
@@ -90,9 +107,15 @@
     color: rgba(255, 255, 255, 0.5);
     margin-top: 30px;
   }
-  
+  .text2{
+    font-size: medium;
+  }
+  .t2{
+    font-size: large;
+  }
   .text1 .text2{
     color: #ea9022;
+    font-size: medium;
   }
   
   .text1 .text2:hover{
