@@ -1,0 +1,39 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .notification-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .notification-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .notification-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification-item .MuiBadge-root {
+    margin-right: 10px;
+  }
+  
+  .notification-item .MuiBadge-badge {
+    background-color: #1976d2;
+  }
+  
+  .notification-item .MuiListItemText-primary {
+    font-weight: bold;
+  }
+  
+  .notification-item .MuiListItemText-secondary {
+    color: #666;
+  }
+  
